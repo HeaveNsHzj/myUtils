@@ -8,7 +8,7 @@
         hexRegEx = /#([a-fA-F0-9]{2})([a-fA-F0-9]{2})([a-fA-F0-9]{2})/,
         rgbRegEx = /rgb\(\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*\)/;
 
-    var pInt = function(number){
+    function pInt(number){
         return parseInt(number, 10)
     };
 
